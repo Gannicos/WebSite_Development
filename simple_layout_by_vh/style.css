@@ -1,0 +1,63 @@
+
+/*That's a mini layout made by Victor Hugo Lima Monteiro*/
+body{
+    background-color:rgb(211, 211, 211);
+}
+nav{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav_logo{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    width: 15%;
+}
+.nav_page{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+li{
+    list-style: none;
+}
+.img_example{
+    width: 80%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.section_one{
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 40px;
+}
+.main_page{
+    display: flex;
+    justify-content: center;
+}
+.main_page_content{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.main_page_content_limit{
+    background-color: white;
+    position: relative;
+    text-align: center;
+    width: 80%;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.main_page_content_limit div{
+    margin: 20px;
+}
